@@ -1,0 +1,93 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+#title {
+    text-align: center;
+    background-color: rgb(106, 0, 255);
+    padding: 15px;
+    margin: 0;
+    color: white;
+}
+
+/* .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+} */
+
+.profile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 20px;
+    padding: 5% 0;
+    background-image: url(https://storage.googleapis.com/cultivated-list-416413/background.jpg);
+}
+
+.profile img {
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    margin-bottom: 20px;
+}
+
+.profile h2, .profile h3 {
+    margin: 5px;
+}
+
+.content {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 50px;
+    text-align: center;
+    margin: 50px;
+}
+
+.content > div {
+    flex: 1;
+    margin: 0 50px;
+    padding: 30px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    height: 250px;
+}
+
+.story p {
+    text-align: justify;
+    font-size: large;
+    line-height: 35px;
+}
+
+.information p {
+    text-align: justify;
+    font-size: large
+}
+
+hr {
+    border: 1px solid #ddd;
+}
+
+.icon {
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.icon img {
+   width: 60px;
+}
+
+ul {
+    display: flex;
+    gap: 100px;
+    list-style: none;
+    padding-top: 30px;
+}
